@@ -1,0 +1,158 @@
+body {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    padding: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #660606;
+    padding: 10px;
+    height: 120px;
+    margin: 10px 0;
+}
+
+header img {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+header h1{
+    margin-left: 20%;
+    padding-top: 20px;
+}
+nav{
+    max-width: 960px;
+    margin: auto;
+}
+nav ul{
+    background-color: #660606;
+    padding: 25px;
+    display: inline-block;
+    float: right;
+}
+nav ul a{
+    margin: 10px 0;
+}
+nav a {
+    color: #660606;
+    text-decoration: none;
+}
+
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    background-color: #000000;
+    padding: 10px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 10px;
+    color: #660606;
+    border-color: #0c0c0c;
+}
+
+main th, main td {
+    border: 1px solid #660606;
+    padding: 8px;
+}
+
+.chet{
+    background-color: #030101;
+}
+
+.nechet{
+    background-color: #660606;
+}
+
+main tbody tr:nth-child(odd) {
+    background-color: #000000;
+}
+
+footer {
+    text-align: center;
+    background-color: #660606;
+}
+
+footer p {
+    padding: 30px 10px 10px 10px;
+    text-align: left;
+}
+
+form {
+    background-color: #000000;
+    padding: 15px;
+}
+
+form input[type="text"], 
+form input[type="tel"], 
+form input[type="email"], 
+form textarea, 
+form select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+}
+@media (min-width: 800px)
+{
+    table
+    {
+        order: 1;
+    }
+    .forma
+    {
+        order: 2;
+    }
+    th
+    {
+        border: 1px solid black;
+        font-weight: 700;
+        font-size: 1.95vw;
+        padding: 0 1px;
+    }
+    td
+    {
+        border: 1px solid black;
+        font-weight: 700;
+        font-size: 1.95vw;
+    }
+    li
+    {
+        max-width: 700px;
+        font-size: 1.2vw;
+    }
+    li a
+    {
+        font-size: 1.2vw;
+    }
+    .forma
+    {
+        max-width: 700px;
+    }
+}
