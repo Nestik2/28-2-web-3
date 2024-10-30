@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Задание 3</title>
+    <title>Задание 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="margin:0;">
-  <header style="width:95%; background-color:#660606; padding: 10px; height:120px;">
+  <header style="width:100%; padding: 10px; height:120px;">
     <img style="float:left; margin:10px; width:100px; height:100px;" src="logo.webp">
-    <nav style="background-color:#000000; padding:10px;">  
+    <nav padding:10px;">  
         
        <ul>
           <a href="https://www.kubsu.ru/index.php"target="_blank">ссылка</a>
@@ -16,59 +16,9 @@
        </ul>
       
     </nav>
-    Задание 3
+    Задание 2
   </header>
   <main style="max-width:960px; background-color:#000000; margin: 0 auto; margin-top:20px; padding:10px;">
-    <table>
-      <h2>Таблица</h2>
-      <thead>
-        <tr class="nechet">
-            <th>#</th>
-            <th colspan="4">Заголовки 1-4</th>
-        </tr>
-        <tr class="nechet">
-            <td>1</td>
-            <td rowspan="2"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="chet">
-            <td>2</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="nechet">
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="chet">
-            <td>4</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="nechet">
-            <td>5</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr class="chet">
-            <td>6</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-    </table>
     <map name ="pudge">
       <area shape="rect" coords="0,0,318,318" href="https://www.dota2.com/">
       <area shape="circle" coords="350,500,120" href="https://www.dota2.com/hero/pudge">
@@ -87,7 +37,7 @@
       <li><a href=".//"target="_blank">ссылка относительная на страницу в каталоге двумя уровнями выше</a></li>
       <li>20:31 Прибыл <a href="https://goo.su/qcNTb"target="_blank">Годжо Сатору</a></li>
       <li>ссылку на фрагмент страницы стороннего сайта<a href="https://goo.su/ComzEd0"target="_blank"> Спарировал </a></li>
-      <li><img src ="/Безымянный.png"usemap="#pudge"></li>
+      <li><img src ="Безымянный.png"usemap="#pudge"></li>
       <li><a href="">ссылку с пустым href</a></li>
       <li><a> ссылкa без href</a></li>
       <li><a href="#" rel="nofollow">ссылкa, по которой запрещен переход поисковикам</a></li>
@@ -102,67 +52,115 @@
       </ol>
       <li><a href= "ftp://jess12:bosox67@ftp.xyz.com">ftp ссылка</a><li></li>
   </ul>
-  
-  <div class="forma">
-    <form action="/"
-    method="POST">
-  
-    <label>
-      ФИО:<br />
-      <input name="field-name-1"
-        value="" />
+  <table>
+    <h2>Таблица</h2>
+    <thead>
+      <tr class="nechet">
+          <th>#</th>
+          <th colspan="4">Заголовки 1-4</th>
+      </tr>
+      <tr class="nechet">
+          <td>1</td>
+          <td rowspan="2"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="chet">
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="nechet">
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="chet">
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="nechet">
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="chet">
+          <td>6</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+  </tbody>
+  </table>
+  <form action="/"
+  method="POST">
+
+  <label>
+    ФИО:<br />
+    <input name="field-name-1"
+      value="" />
+  </label><br />
+  <label>
+      Текстовое поле email:<br />
+      <input name="field-email"
+        type="email"
+        placeholder="Введите вашу почту" />
     </label><br />
-    <label>
-        Текстовое поле email:<br />
-        <input name="field-email"
-          type="email"
-          placeholder="Введите вашу почту" />
-      </label><br />
-     <label>
-        Текстовое поле email:<br />
-        <input name="field-tel"
-          type="tel"
-          placeholder="Введите ваш телефон" />
-     </label><br />
-     <label>
-        Текстовое поле даты:<br />
-        <input name="field-date"
-          value="2000-01-01"
-          type="date" />
-     </label><br />
-     <label> 
-      Выберете пол:<br/>
-      <input type="radio" checked="checked"
-      name="radio-group-1" value="Значение1" />
-      Мужской</label>
-      <label><input type="radio"
-      name="radio-group-1" value="Значение2" />
-      Женский</label><br />
-      <p>Любимый язык программирования:</p>
-            <select name="loving" id="prog" multiple name="lang[]">
-                <option value="Pascal">Pascal</option>
-                <option value="C">C</option>
-                <option value="C++">C++</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="PHP">PHP</option>
-                <option value="Python">Python</option>
-                <option value="Java">Java</option>
-                <option value="Haskel">Haskel</option>
-                <option value="Clojure">Clojure</option>
-                <option value="Prolog">Prolog</option>
-                <option value="Scala">Scala</option>
-            </select><br>
-        Поле для биографии:<br />
-        <textarea name="field-name-2"></textarea>
-      </label><br />
-      с контрактом ознакомлен (а)
-      <label><input type="checkbox" checked="checked"
-        name="check-1" /></label><br />
-    <input type="submit" value="сохранить" />
-    </form>
-  </div>
-  </main>
-  <footer style="width:100%; background-color:#7e2020; margin:50px; padding:50px;">
-    <span style="background-color:rgb(122, 11, 11);">Нестеренко Владислав Романович</span>
-  </footer>   
+   <label>
+      Текстовое поле email:<br />
+      <input name="field-tel"
+        type="tel"
+        placeholder="Введите ваш телефон" />
+   </label><br />
+   <label>
+      Текстовое поле даты:<br />
+      <input name="field-date"
+        value="2000-01-01"
+        type="date" />
+   </label><br />
+   <label> 
+    Выберете пол:<br/>
+    <input type="radio" checked="checked"
+    name="radio-group-1" value="Значение1" />
+    Мужской</label>
+    <label><input type="radio"
+    name="radio-group-1" value="Значение2" />
+    Женский</label><br />
+    <p>Любимый язык программирования:</p>
+          <select name="loving" id="prog" multiple name="lang[]">
+              <option value="Pascal">Pascal</option>
+              <option value="C">C</option>
+              <option value="C++">C++</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="PHP">PHP</option>
+              <option value="Python">Python</option>
+              <option value="Java">Java</option>
+              <option value="Haskel">Haskel</option>
+              <option value="Clojure">Clojure</option>
+              <option value="Prolog">Prolog</option>
+              <option value="Scala">Scala</option>
+          </select><br>
+      Поле для биографии:<br />
+      <textarea name="field-name-2"></textarea>
+    </label><br />
+    с контрактом ознакомлен (а)
+    <label><input type="checkbox" checked="checked"
+      name="check-1" /></label><br />
+  <input type="submit" value="сохранить" />
+  </form>
+  </main> 
 </body>
+ <footer>
+    <span >Нестеренко Владислав Романович</span>
+  </footer>  
+</html>
