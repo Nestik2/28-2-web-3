@@ -1,24 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Задание 2</title>
+    <title>Задание 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="margin:0;">
-  <header style="width:100%; padding: 10px; height:120px;">
-    <img style="float:left; margin:10px; width:100px; height:100px;" src="logo.webp">
-    <nav padding:10px;">  
-        
-       <ul>
+  <header>
+    <div class="logo">
+      <img style="float:left; margin:10px; width:100px; height:100px;" src="logo.webp">
+      Задание 3
+    </div>
+          <nav class="desktop">
+            <ul>
+              <a href="https://www.kubsu.ru/index.php"target="_blank">ссылка</a>
+              <a href="https://kubsu.ru"target="_blank">ссылка</a>
+              <a href="#last_one"target="_blank">ссылка</a>
+           </ul>
+          </nav>
+      </header>
+      <nav class="mobile">
+        <ul>
           <a href="https://www.kubsu.ru/index.php"target="_blank">ссылка</a>
           <a href="https://kubsu.ru"target="_blank">ссылка</a>
           <a href="#last_one"target="_blank">ссылка</a>
        </ul>
-      
-    </nav>
-    Задание 2
+      </nav>
   </header>
-  <main style="max-width:960px; background-color:#000000; margin: 0 auto; margin-top:20px; padding:10px;">
+  <main>
+
+    <table>
+        <tbody>
+          <tr class="nechet">
+            <th>#</th>
+            <th colspan="4">Заголовки 1-4</th>
+        </tr>
+        <tr class="nechet">
+            <td>1</td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="chet">
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="nechet">
+            <td>3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="chet">
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="nechet">
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="chet">
+            <td>6</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+
     <map name ="pudge">
       <area shape="rect" coords="0,0,318,318" href="https://www.dota2.com/">
       <area shape="circle" coords="350,500,120" href="https://www.dota2.com/hero/pudge">
@@ -52,56 +111,6 @@
       </ol>
       <li><a href= "ftp://jess12:bosox67@ftp.xyz.com">ftp ссылка</a><li></li>
   </ul>
-  <table>
-    <h2>Таблица</h2>
-    <thead>
-      <tr class="nechet">
-          <th>#</th>
-          <th colspan="4">Заголовки 1-4</th>
-      </tr>
-      <tr class="nechet">
-          <td>1</td>
-          <td rowspan="2"></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr class="chet">
-          <td>2</td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr class="nechet">
-          <td>3</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr class="chet">
-          <td>4</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr class="nechet">
-          <td>5</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-      <tr class="chet">
-          <td>6</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-      </tr>
-  </tbody>
-  </table>
   <form action="/"
   method="POST">
 
@@ -137,19 +146,19 @@
     name="radio-group-1" value="Значение2" />
     Женский</label><br />
     <p>Любимый язык программирования:</p>
-          <select name="loving" id="prog" multiple name="lang[]">
-              <option value="Pascal">Pascal</option>
-              <option value="C">C</option>
-              <option value="C++">C++</option>
-              <option value="JavaScript">JavaScript</option>
-              <option value="PHP">PHP</option>
-              <option value="Python">Python</option>
-              <option value="Java">Java</option>
-              <option value="Haskel">Haskel</option>
-              <option value="Clojure">Clojure</option>
-              <option value="Prolog">Prolog</option>
-              <option value="Scala">Scala</option>
-          </select><br>
+                <select id="prog" multiple name="lang[]">
+                    <option value="Pascal">Pascal</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Haskel">Haskel</option>
+                    <option value="Clojure">Clojure</option>
+                    <option value="Prolog">Prolog</option>
+                    <option value="Scala">Scala</option>
+                </select>
       Поле для биографии:<br />
       <textarea name="field-name-2"></textarea>
     </label><br />
