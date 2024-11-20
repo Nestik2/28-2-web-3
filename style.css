@@ -48,12 +48,6 @@ main
     background-color: #eeee22;
     border-bottom: 2px solid black;
 }
-nav ul{
-    background-color: #660606;
-    padding: 25px;
-    display: inline-block;
-    float: right;
-}
 .mobile ul
 {
     display: flex;
