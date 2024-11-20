@@ -20,6 +20,7 @@ header
 
 main
 {
+    float: centr;
     display: flex;
     flex-direction: column;
 }
