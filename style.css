@@ -301,3 +301,54 @@ footer
         margin-left: 20px;
         max-width: 700px;
     }
+    li
+    {
+        max-width: 700px;
+        font-size: 1.2vw;
+    }
+
+    li a
+    {
+        font-size: 1.2vw;
+    }
+
+    .forma
+    {
+        max-width: 700px;
+    }
+    .mobile{
+        visibility: hidden;
+    }
+
+    .desktop{
+        visibility: inherit;
+        padding-top: 0;
+    }
+
+    .desktop ul
+    {
+        display: flex;
+        gap: 10px;
+        background-color: #45a247;
+        margin-top: 0;
+        padding-right: 30px;
+    }
+
+    .desktop ul a
+    {
+        color: #121318;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all ease-in-out .3s;
+    }
+
+    .desktop ul a:hover
+    {
+        color: #283c86;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+}
