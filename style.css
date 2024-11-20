@@ -268,7 +268,7 @@ footer
     flex-direction: column;
 }
 
-@media (min-width: 800px)
+@media (width: 100%)
 {
     table
     {
