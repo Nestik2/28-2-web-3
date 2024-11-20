@@ -273,7 +273,7 @@ footer
     flex-direction: column;
 }
 
-@media (max-width: 960px)
+@media (min-width: 800px)
 {
     table
     {
